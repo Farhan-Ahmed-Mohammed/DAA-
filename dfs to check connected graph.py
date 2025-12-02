@@ -38,6 +38,6 @@ print("Dfs traversal of graph is :")
 visited=set()
 dfs(graph,start,visited)
 if len(visited)==n:   # if there is no connected graph then the size of graph and the size of the set will be same
-    print("There is a cycle")
+    print("The graph is connected")
 else:
-    print("There is no cycle")
+    print("The graph is not connected")
